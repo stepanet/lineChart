@@ -13,6 +13,9 @@
 		3B739523245DC22200AA15FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B739521245DC22200AA15FB /* Main.storyboard */; };
 		3B739525245DC22700AA15FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B739524245DC22700AA15FB /* Assets.xcassets */; };
 		3B739528245DC22700AA15FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B739526245DC22700AA15FB /* LaunchScreen.storyboard */; };
+		3B739530245DC2B500AA15FB /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B73952F245DC2B500AA15FB /* LineChart.swift */; };
+		3B739532245DC40500AA15FB /* CurveAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B739531245DC40500AA15FB /* CurveAlgorithm.swift */; };
+		3B739534245DC43900AA15FB /* DotCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B739533245DC43900AA15FB /* DotCALayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3B739524245DC22700AA15FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B739527245DC22700AA15FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B739529245DC22700AA15FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B73952F245DC2B500AA15FB /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		3B739531245DC40500AA15FB /* CurveAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveAlgorithm.swift; sourceTree = "<group>"; };
+		3B739533245DC43900AA15FB /* DotCALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotCALayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				3B73951B245DC22200AA15FB /* AppDelegate.swift */,
 				3B73951D245DC22200AA15FB /* SceneDelegate.swift */,
 				3B73951F245DC22200AA15FB /* ViewController.swift */,
+				3B73952F245DC2B500AA15FB /* LineChart.swift */,
+				3B739531245DC40500AA15FB /* CurveAlgorithm.swift */,
+				3B739533245DC43900AA15FB /* DotCALayer.swift */,
 				3B739521245DC22200AA15FB /* Main.storyboard */,
 				3B739524245DC22700AA15FB /* Assets.xcassets */,
 				3B739526245DC22700AA15FB /* LaunchScreen.storyboard */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B739530245DC2B500AA15FB /* LineChart.swift in Sources */,
+				3B739534245DC43900AA15FB /* DotCALayer.swift in Sources */,
 				3B739520245DC22200AA15FB /* ViewController.swift in Sources */,
 				3B73951C245DC22200AA15FB /* AppDelegate.swift in Sources */,
 				3B73951E245DC22200AA15FB /* SceneDelegate.swift in Sources */,
+				3B739532245DC40500AA15FB /* CurveAlgorithm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
